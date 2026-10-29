@@ -1,0 +1,20 @@
+{
+  "name": "gamezone-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GameZone Arabic-first browser gaming platform with real-time multiplayer foundation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "ws": "^8.18.0"
+  }
+}
